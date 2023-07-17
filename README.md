@@ -1,3 +1,8 @@
+/*! Прикол */
+/*? Прикол */
+/** Прикол */
+/* Прикол */
+
 # goit-markup-hw-03
 
 https://vovkatom.github.io/goit-markup-hw-03/
