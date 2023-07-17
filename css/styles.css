@@ -496,10 +496,13 @@ img,
 }
 
 .icon-team-link:hover,
-.icon-team-link:focus,
+.icon-team-link:focus {
+  background-color: var(--pressed-state, #404bbf);
+}
+
 .icon-footer-link:hover,
 .icon-footer-link:focus {
-  background-color: var(--pressed-state, #404bbf);
+  background-color: #31d0aa;
 }
 
 .main-features .icon-features {
