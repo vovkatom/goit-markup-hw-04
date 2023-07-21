@@ -200,10 +200,14 @@ img,
 }
 
 .header-addres-link:hover,
-.header-addres-link:focus,
+.header-addres-link:focus {
+  color: var(--pressed-state, #404bbf);
+}
+
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--pressed-state, #404bbf);
+  color: var(--white-background, #FFF);
+  background: var(--pressed-state, #404BBF);
 }
 
 .current::after {
