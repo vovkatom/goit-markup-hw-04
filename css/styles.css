@@ -566,12 +566,15 @@ img,
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-modal {
+/* .button-modal { */
+.icon-modal {
   position: absolute;
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
+  flex-shrink: 0;
+
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -579,7 +582,7 @@ img,
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms fill cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -590,6 +593,6 @@ img,
   fill: var(--white-background, #ffffff);
 }
 
-.icon-modal {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* .icon-modal { */
+/* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/* } */
